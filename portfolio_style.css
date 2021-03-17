@@ -1,0 +1,190 @@
+body *{
+    /* outline: 1px dashed red; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+#main_box{
+    width: 900px;
+    min-height: 1000px;
+    background: radial-gradient(circle, rgba(146,147,156,1) 0%, rgba(92,60,83,1) 100%);
+}
+#box_1{
+    width: 900px;
+    min-height: 40px;
+    color: black;
+    background-color:rgb(228, 226, 226);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    h1{
+        margin: 10px;
+        display: inline-block;
+        margin-left: 20px;
+    }
+    h2{
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+
+#box_2{
+    width: 900px;
+    display: inline-block;
+    padding: 20px;
+}
+    .photo_of_me{
+        width: 350px;
+        height: 250px;
+        outline: 4px solid silver;
+       
+    }
+    #box_2_about{
+        display: inline-block;
+        width: 486px;
+        height: 255px;
+        background: linear-gradient(90deg, rgba(212,208,208,1) 0%, rgba(229,227,232,0.8655097613882863) 47%);
+        margin-left: 20px;
+        vertical-align: top;
+    }
+h3{
+    width: auto;
+    height: 40px;
+    background: linear-gradient(0deg, rgba(181,168,193,1) 0%, rgba(80,62,87,0.982646420824295) 100%);
+    color: honeydew;
+    display: block;
+    padding: 8px;
+   
+}
+#box_3{
+    width: 900px;
+    display: inline-block;
+    padding: 0px;
+}
+
+.lamode, .familycontacts, .fiveEleven{
+    width: 275px;
+    height: 200px;
+}
+
+#box_3_LaMode{
+    width: 275px;
+    height: 630px;
+    background: linear-gradient(90deg, rgba(212,208,208,1) 0%, rgba(208,197,202,0.789587852494577) 47%);
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+}
+
+#box_3_Family{
+    width: 275px;
+    height: 630px;
+    background: linear-gradient(90deg, rgba(212,208,208,1) 0%, rgba(208,197,202,0.789587852494577) 47%);
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+}
+#box_3_fiveEleven{
+    width: 275px;
+    height: 630px;
+    background: linear-gradient(90deg, rgba(212,208,208,1) 0%, rgba(208,197,202,0.789587852494577) 47%);
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+}
+
+.info{
+    margin: 15px;
+    /* background: linear-gradient(90deg, rgba(212,208,208,1) 0%, rgba(208,197,202,0.789587852494577) 47%); */
+}
+
+
+h4{
+    width: auto;
+    height: 40px;
+    background: linear-gradient(0deg, rgba(181,168,193,1) 0%, rgba(80,62,87,0.982646420824295) 100%);
+    color: honeydew;
+    display: block;
+    vertical-align: bottom; 
+    padding: 10px;
+}
+#box_3_LaMode h4 {
+    margin-top: 67px;
+}
+
+#box_3_Family h4 {
+    margin-top: 51px;
+}
+#box_3_fiveEleven h4 {
+    margin-top: 10px;
+}
+.features img {
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+}
+.button1 {
+    width: 70px;
+    height: 30px;
+    color: honeydew;
+    background-color: rgb(118, 170, 118);
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 5px;
+    padding: 5px;
+    padding-left: 5px;
+}
+.button2 {
+    width: 120px;
+    height: 30px;
+    color: honeydew;
+    background-color: rgb(118, 170, 118);
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 5px;
+    padding: 5px;
+    
+}
+.button3 {
+    width: 80px;
+    height: 30px;
+    color: honeydew;
+    background-color: rgb(118, 170, 118);
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 5px;
+    padding: 5px;
+    
+}
+#contacts{
+    width: 900px;
+    min-height: 40px;
+    color: black;
+    background-color:rgb(228, 226, 226);
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 350px;
+}
+#contact_2{
+    width: 900px;
+    min-height: 40px;
+    color: black;
+    background-color:rgb(228, 226, 226);
+    display:inline-block;
+}
+ul li {
+    display: inline;
+
+}
+
+ul li img{
+    width: 25px;
+    height: 25px;
+}
+#box_4 #contact_2 {
+    padding-top: 7px;
+    padding-left: 280px;
+}
